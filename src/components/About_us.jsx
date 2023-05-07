@@ -24,7 +24,7 @@ const About_us = () => {
         </p>
       </div>
       {/* second  */}
-      <div className=" bg-[#d6cbab] flex flex-col p-4 gap-4 text-2xl md:items-left justify-center md:w-[50%] md:pr-[4em] md:pt-[3em] md:pb-[2em] md:text-left">
+      <div className=" bg-[#d6cbab] flex flex-col p-4 gap-4 text-2xl md:items-left justify-center md:w-[50%] md:pr-[4em] md:pt-[3em] md:pb-[2em] md:text-left text-center">
         <h2 className="font-semibold md:text-3xl ">
           Booking live music has never been easier.
         </h2>
@@ -35,10 +35,10 @@ const About_us = () => {
         </button>
         <p>We ensure event runs smoothly.</p>
         {/* corporate  */}
-        <button className="bg-[#000000] px-4 rounded-2xl py-2 hover:filter hover:drop-shadow-md hover: hover:opacity-75  drop-shadow-[#fdd844] filter-300ms text-white transition duration-300 ease-in-out transform hover:text-[#ff0000] mx-auto md:mx-0 md:w-[16rem]">
+        <button className="bg-[#000000] px-4 rounded-2xl py-2 hover:filter hover:drop-shadow-md hover: hover:opacity-75  drop-shadow-[#fdd844] filter-300ms text-white transition duration-300 ease-in-out transform hover:text-[#ff0000] mx-auto md:mx-0 md:w-[16rem] ">
           Corporate Events
         </button>
-        <p>Watch us live</p>
+        <p className="">Watch us live</p>
 
         {/* upcoming shows  */}
         <button className="bg-[#ff0000] px-6 rounded-2xl py-2 hover:filter hover:drop-shadow-md hover: hover:opacity-75  drop-shadow-[#fdd844] filter-300ms text-white transition duration-300 ease-in-out transform hover:bg-white hover:text-[#ff0000] mx-auto md:mx-0 md:w-[16rem]">

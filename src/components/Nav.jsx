@@ -13,10 +13,10 @@ const Nav = () => {
 
   return (
     <div>
-      <div className="bg-white w-full">
+      <div className="bg-white w-full h-20 fixed flex items-center justify-center z-10">
         {/* main box  */}
-        <div className="flex justify-between items-center h-16 text-black bg-white relative shadow-sm w-[92%] mx-auto md:px-4 rounded-2xl ">
-          <div className="flex items-center font-extrabold gap-2 text-[#000000]">
+        <div className="flex justify-between items-center h-16 text-black bg-white  shadow-sm w-[92%] mx-auto md:px-4 rounded-2xl  fixed top-3 ">
+          <div className="flex items-center font-extrabold gap-2 text-[#000000] ">
             <img src={logo1} alt="" className="h-10 font-[poppins]" />
             <h1>ATL GROOVE FACTORY</h1>
           </div>
@@ -54,8 +54,8 @@ const Nav = () => {
         <div
           className={
             nav
-              ? 'fixed right-0 top-[4.2rem] w-[60%] rounded-2xl border-r border-r-gray-900  bg-black ease-in-out duration-500 shadow-lg shadow-black'
-              : 'fixed left-[-100%]'
+              ? 'fixed right-0 top-[4.2rem] w-[60%] rounded-2xl border-r border-r-gray-900  bg-black ease-in-out duration-500 shadow-lg shadow-black z-20'
+              : 'fixed left-[-100%] '
           }
         >
           <ul class=" p-4 text-center text-white">

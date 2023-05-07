@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import wedd from '../assets/birday.jpg';
 import corp from '../assets/wed_560x510.jpg';
@@ -6,6 +8,10 @@ import birthday from '../assets/others.jpg';
 import others from '../assets/corporrate_560x510.jpg';
 
 const Packages = () => {
+  useEffect(() => {
+    AOS.init({ delay: 200, duration: 1500, once: false });
+    AOS.refresh();
+  }, []);
   return (
     <div className=" bg-gradient-to-l from-[#66deff] to-[#ffa0e9] p-4 ">
       <h1 className="mb-4">
@@ -13,7 +19,10 @@ const Packages = () => {
         specific event!.
       </h1>
       {/* all packades  */}
-      <div className=" grid grid-cols-2 gap-4 md:flex md:justify-between">
+      <div
+        data-aos="zoom-in-up"
+        className=" grid grid-cols-2 gap-4 md:flex md:justify-between"
+      >
         {/* weddings  */}
         <div className=" relative  ">
           <img src={wedd} alt="" />
