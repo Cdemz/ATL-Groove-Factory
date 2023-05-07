@@ -14,10 +14,10 @@ const Hero = () => {
       <div>
         {/* picture  */}
         <div>
-          <img src={dhero} alt="" className="w-[100vw] h-[30em] " />
+          <img src={dhero} alt="" className="w-[100vw] h-[30em] md:h-full " />
         </div>
         {/* hero content  */}
-        <div className="absolute top-0 text-white h-[30em] flex flex-col items-center gap-8 md:pt-[8em] pt-[12em] text-center  px-8 md:px-[6em] font-bold md:text-2xl bg-black bg-opacity-40">
+        <div className="absolute top-0 text-white h-[30em] flex flex-col items-center gap-8 md:pt-[50%] pt-[12em] text-center  px-8 md:px-[6em] font-bold md:text-2xl bg-black bg-opacity-40 md:h-full ">
           <p>
             Elevate your event with the best live music around. Our band plays
             all your favorite songs with high-energy flair, perfect for weddings
