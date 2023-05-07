@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
       <div className=" flex items-center gap-4">
         <img src={logo1} alt="" className="md:h-[15vh] h-[6rem]" />
-        <h1 className="md:text-[5vh] font-bold text-xl">ATL GROOVE FACTORY</h1>
+        <h1 className="md:text-[2rem] font-bold text-xl">ATL GROOVE FACTORY</h1>
       </div>
       {/* MY SPACE  */}
       <div class="flex flex-wrap items-center md:justify-between justify-center">

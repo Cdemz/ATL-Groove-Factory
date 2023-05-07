@@ -35,7 +35,7 @@ const Nav = () => {
               <a href="">Gallery</a>
             </li>
             <li className="p-2">
-              <a href="">Songs</a>
+              <a href="songs">Songs</a>
             </li>
             <li className="p-2">
               <a href="">Gallery</a>
