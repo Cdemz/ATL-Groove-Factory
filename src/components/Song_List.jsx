@@ -4,7 +4,10 @@ import { FaRegPlayCircle } from 'react-icons/fa';
 
 const Song_List = () => {
   return (
-    <div className="relative flex flex-col justify-center items-center ">
+    <div
+      id="songs"
+      className="relative flex flex-col justify-center items-center "
+    >
       <img src={bg} alt="" className="w-[100vw] md:h-[46em]" />
       <div className="absolute top-4 h-[97.3%] w-[90%] bg-white my-auto flex flex-col items-center ">
         <h1 className="font-extrabold mt-4">ATL GROOVE FACTORY SONG LIST</h1>

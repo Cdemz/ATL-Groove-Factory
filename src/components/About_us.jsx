@@ -41,9 +41,11 @@ const About_us = () => {
         <p className="">Watch us live</p>
 
         {/* upcoming shows  */}
-        <button className="bg-[#ff0000] px-6 rounded-2xl py-2 hover:filter hover:drop-shadow-md hover: hover:opacity-75  drop-shadow-[#fdd844] filter-300ms text-white transition duration-300 ease-in-out transform hover:bg-white hover:text-[#ff0000] mx-auto md:mx-0 md:w-[16rem]">
-          Upcoming Shows
-        </button>
+        <a href="/see-us">
+          <button className="bg-[#ff0000] px-6 rounded-2xl py-2 hover:filter hover:drop-shadow-md hover: hover:opacity-75  drop-shadow-[#fdd844] filter-300ms text-white transition duration-300 ease-in-out transform hover:bg-white hover:text-[#ff0000] mx-auto md:mx-0 md:w-[16rem]">
+            Upcoming Shows
+          </button>
+        </a>
       </div>
     </div>
   );

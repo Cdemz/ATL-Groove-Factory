@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import dhero from '../assets/birday.jpg';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   useEffect(() => {
@@ -10,7 +10,7 @@ const Hero = () => {
     AOS.refresh();
   }, []);
   return (
-    <div className="flex relative">
+    <div className="flex relative" id="home">
       <div>
         {/* picture  */}
         <div>
@@ -24,16 +24,14 @@ const Hero = () => {
             and corporate events.
           </p>
           <div data-aos="fade-right" className=" flex gap-7">
-            <BrowserRouter>
-              <Link to="/src/components/See_us.jsx">
-                <button className="bg-[#cab262] px-4 rounded-2xl py-2 hover:filter hover:drop-shadow-md hover:opacity-80  drop-shadow-[#fdd844] filter-300ms  transition duration-300 ease-in-out transform text-black">
-                  {' '}
-                  See Us Live
-                </button>
-              </Link>
-            </BrowserRouter>
+            <Link to="/see-us">
+              <button className="bg-[#cab262] px-4 rounded-2xl py-2 hover:filter hover:drop-shadow-md hover:opacity-80  drop-shadow-[#fdd844] filter-300ms  transition duration-300 ease-in-out transform text-black">
+                {' '}
+                See Us Live
+              </button>
+            </Link>
 
-            <a href="">
+            <a href="/contact">
               <button className="bg-[#ff0000] px-4 rounded-2xl py-2 hover:filter hover:drop-shadow-md hover: hover:opacity-75  drop-shadow-[#fdd844] filter-300ms  transition duration-300 ease-in-out transform">
                 {' '}
                 Contact us
