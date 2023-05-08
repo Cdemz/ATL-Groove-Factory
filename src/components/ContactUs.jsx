@@ -106,7 +106,7 @@ const ContactUs = () => {
             atlgroovefactory2011@yahoo.com.
           </p>
         </div>
-        <div className="hidden md:flex w-[40%]">
+        <div className="hidden  md:flex md:w-[40%]">
           <img src={show} alt="" className="w-full h-full" />
         </div>
       </section>
